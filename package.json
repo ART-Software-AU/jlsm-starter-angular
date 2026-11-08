@@ -1,0 +1,25 @@
+{
+	"name": "jlsm-starter-angular",
+	"version": "1.0.0",
+	"private": true,
+	"description": "JSON-LD Schema Manager renderer add-on for a Sitecore Content SDK Angular head.",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"test": "vitest run",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@angular/common": "21.2.25",
+		"@angular/compiler": "21.2.25",
+		"@angular/compiler-cli": "21.2.25",
+		"@angular/core": "21.2.25",
+		"@angular/platform-browser": "21.2.25",
+		"@angular/platform-server": "21.2.25",
+		"@types/node": "24.6.0",
+		"jsdom": "27.4.0",
+		"rxjs": "7.8.2",
+		"typescript": "5.9.3",
+		"vitest": "3.2.4"
+	}
+}
